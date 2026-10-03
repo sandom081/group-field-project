@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student project prototype connecting NGOs, local artisans and communities.">
+  <title>Udaan Connect | NGOs & Local Artisans</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">UC</span><span>Udaan<span>Connect</span></span></a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#ngos">NGOs</a>
+        <a href="#artisans">Artisans</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#support">Support</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">COMMUNITY • CRAFT • CHANGE</p>
+          <h1>Discover people.<br><em>Support purpose.</em></h1>
+          <p class="hero-text">A simple digital space to discover community organisations and local artisans, understand their work, and find meaningful ways to connect or support them.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ngos">Explore NGOs <span>→</span></a>
+            <a class="btn btn-ghost" href="#artisans">Meet Artisans</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Clear information</span>
+            <span>✓ Mobile friendly</span>
+            <span>✓ Easy contact</span>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <div class="hero-image">
+            <div class="image-overlay"></div>
+            <div class="floating-card top"><strong>Local impact</strong><span>Stories that matter</span></div>
+            <div class="floating-card bottom"><span class="dot"></span><strong>Connect locally</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>113</strong><span>Survey responses</span></div>
+        <div><strong>66.4%</strong><span>Support having a website</span></div>
+        <div><strong>55.8%</strong><span>Say websites build trust</span></div>
+        <div><strong>74.3%</strong><span>Value mobile-friendly design</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container two-col">
+        <div class="section-copy reveal">
+          <p class="eyebrow">WHY THIS PLATFORM</p>
+          <h2>Make local work easier to <em>find.</em></h2>
+          <p>Many community organisations and independent artisans depend on social media, word of mouth or offline networks. This prototype brings essential information into one clear, accessible place.</p>
+          <div class="check-list">
+            <div><span>01</span><p><b>Discover</b><br>Find organisations, artisans and their work.</p></div>
+            <div><span>02</span><p><b>Understand</b><br>See their mission, services, products and activities.</p></div>
+            <div><span>03</span><p><b>Connect</b><br>Contact, locate or support them easily.</p></div>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <div class="quote">“Good work should not be difficult to discover.”</div>
+          <p>This website is a student Field Project prototype based on a survey of 113 respondents about NGO and local-artisan website requirements.</p>
+          <div class="mini-meta"><span>FIELD PROJECT</span><span>GROUP 14</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ngos" class="section soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow">COMMUNITY ORGANISATIONS</p><h2>Explore <em>NGOs</em></h2></div>
+          <p>Learn what organisations do, where they work and how you can connect.</p>
+        </div>
+        <div class="cards three">
+          <article class="org-card reveal"><div class="card-art ngo-one"><span>EDUCATION</span></div><div class="card-body"><p class="tag">NAVI MUMBAI</p><h3>Udaan Seva Foundation</h3><p>Community education, family support and awareness activities.</p><a href="#contact">View details →</a></div></article>
+          <article class="org-card reveal"><div class="card-art ngo-two"><span>COMMUNITY</span></div><div class="card-body"><p class="tag">COMMUNITY CARE</p><h3>Neighbourhood Support</h3><p>A sample profile demonstrating how an NGO can present its work online.</p><a href="#contact">View details →</a></div></article>
+          <article class="org-card reveal"><div class="card-art ngo-three"><span>WELFARE</span></div><div class="card-body"><p class="tag">LOCAL INITIATIVE</p><h3>Seva &amp; Saksham</h3><p>A prototype listing for activities, projects and community participation.</p><a href="#contact">View details →</a></div></article>
+        </div>
+        <p class="prototype-note">Prototype note: the organisation profiles above are illustrative case-study content, not claims about real field interviews.</p>
+      </div>
+    </section>
+
+    <section id="artisans" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow">LOCAL CREATORS</p><h2>Meet <em>Artisans</em></h2></div>
+          <p>Give local makers a clear digital space to show their products and services.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal"><div class="product-image craft-one"></div><div><p class="tag">HANDCRAFT</p><h3>Handwoven Baskets</h3><p>Traditional utility and décor pieces.</p><button class="text-btn" data-toast="Product enquiry selected">Enquire →</button></div></article>
+          <article class="product-card reveal"><div class="product-image craft-two"></div><div><p class="tag">POTTERY</p><h3>Terracotta Studio</h3><p>Small-batch handmade pottery and décor.</p><button class="text-btn" data-toast="Product enquiry selected">Enquire →</button></div></article>
+          <article class="product-card reveal"><div class="product-image craft-three"></div><div><p class="tag">TEXTILES</p><h3>Handprinted Fabrics</h3><p>Locally made prints for everyday use.</p><button class="text-btn" data-toast="Product enquiry selected">Enquire →</button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section soft">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">VISUAL STORIES</p><h2>Gallery</h2></div><p>Activities, products and community moments can be showcased here.</p></div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item g1"><span>Community</span></div>
+          <div class="gallery-item g2"><span>Craft</span></div>
+          <div class="gallery-item g3"><span>Workshop</span></div>
+          <div class="gallery-item g4"><span>Products</span></div>
+          <div class="gallery-item g5"><span>Events</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow">UPDATES</p><h2>Events &amp; activities</h2></div><p>Keep visitors informed with current activities and community events.</p></div>
+        <div class="event-list">
+          <article class="event reveal"><div class="date"><b>12</b><span>OCT</span></div><div><p class="tag">COMMUNITY</p><h3>Neighbourhood Learning Day</h3><p>A sample event card for workshops, drives and community activities.</p></div><span class="event-arrow">↗</span></article>
+          <article class="event reveal"><div class="date"><b>20</b><span>OCT</span></div><div><p class="tag">ARTISAN</p><h3>Local Makers Showcase</h3><p>A sample listing to highlight local products and creators.</p></div><span class="event-arrow">↗</span></article>
+          <article class="event reveal"><div class="date"><b>02</b><span>NOV</span></div><div><p class="tag">SUPPORT</p><h3>Community Support Drive</h3><p>A sample listing for donation or volunteering initiatives.</p></div><span class="event-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="support-section">
+      <div class="container support-box reveal">
+        <div><p class="eyebrow">MAKE A DIFFERENCE</p><h2>Support a cause.<br><em>Support a creator.</em></h2><p>Choose a way to help — donate, enquire, share, volunteer or simply learn more.</p></div>
+        <div class="support-actions"><button class="btn btn-light" data-toast="Donation prototype opened">Donate / Support</button><a class="btn btn-outline-light" href="#contact">Get in touch</a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container two-col">
+        <div class="section-copy reveal"><p class="eyebrow">CONTACT</p><h2>Have a question? <em>Let's connect.</em></h2><p>A simple enquiry form makes it easier for visitors to reach an organisation or artisan.</p>
+          <div class="contact-points"><p><b>Location</b><br>Navi Mumbai, Maharashtra</p><p><b>Email</b><br>hello@udaanconnect.example</p><p><b>Hours</b><br>Mon – Sat · 10:00 AM – 6:00 PM</p></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+          <label>I'm interested in<select name="interest"><option>Learning more</option><option>Supporting an NGO</option><option>Artisan products</option><option>Volunteering</option></select></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Write your enquiry..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send enquiry <span>→</span></button>
+          <p class="form-note">Demo form — no real message is sent.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="#home"><span class="brand-mark">UC</span><span>Udaan<span>Connect</span></span></a><p>Website Requirement Study &amp; Development for NGOs / Artisans.</p></div>
+      <div><p class="footer-title">Project</p><a href="#about">About</a><a href="#ngos">NGOs</a><a href="#artisans">Artisans</a></div>
+      <div><p class="footer-title">Explore</p><a href="#gallery">Gallery</a><a href="#events">Events</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container copyright">Field Project · Group 14 · Academic Year 2026–27</div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
